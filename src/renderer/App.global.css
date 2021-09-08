@@ -1,0 +1,11 @@
+::-webkit-scrollbar {
+  display: none; /* Chrome Safari */
+}
+*{
+  margin: 0;
+  padding: 0;
+}
+#drag{
+  -webkit-user-select: none;
+  -webkit-app-region: drag;
+}
